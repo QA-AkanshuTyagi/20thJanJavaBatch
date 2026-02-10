@@ -1,0 +1,71 @@
+########################Create GitHub Account ########
+1.  Go to GitHub.com
+2. click on signup button 
+3. provide required info
+   - email
+   - username : it should be unique
+   - password
+4. click on create 
+5. solve verification puzzle.
+6. Enter Verification code received on mail
+
+################ Create Git Repository #######################
+
+
+1.  Click on Create Repository button.
+2.  Provide Repository Name. e.g. AutomationPractice.
+3.  Provide Repository description.
+4.  Choose a repository visibility :  Public.
+5.  Select Add readme file option.
+6.  click on Create Repository button.
+7.  Repository created successfully.
+
+############ Install Git hub Client on local machine ###########
+1. Go to google 
+2. Search for git download and download 64 bit git client from below link
+https://github.com/git-for-windows/git/releases/download/v2.52.0.windows.1/Git-2.52.0-64-bit.exe
+3. Initiate the install with git installer and click continue on next and install it without changing any default
+   config.
+
+4. Create a folder in C driver with name : GithubRepos.
+5. Open a folder and right click inside the folder ->  click on show more option.
+6. Click on option with name : open git base here
+7. It will open git terminal in current directory.
+8. Run a GitHub command :  git --help
+   ->  It will show list of git command and their details.
+
+#################### Clone git repository on local system ###################
+
+1. Go to GitHub server and open newly created or old repository.
+2. click on code button with green color.
+3. choose HTTPS option and copy the repository URL.
+   e.g. https://github.com/Pathmakp26/AutomationPractice.git
+
+4. Open git Terminal inside GitHubRepos folder.
+5. Run git clone command 
+   ->  git clone https://github.com/Pathmakp26/AutomationPractice.git
+   ->  Enter
+
+6. Once the clone is successful use command dir/ls to mare sure repository folder created successfully on local system.
+
+7. Manually from explorer verify that repository folder should be available inside the GitRepos folder.
+
+############## Configure User Credentials on git client #########
+1. Go to git terminal 
+2. run command to open config file
+   - git config --global --edit
+
+3.  It will open Linux editor, we have to provide GitHub username and email.
+4.  Initiate a insert mode by pressing i key on keyboard.
+5.  Use arrow keys and remove # to un-comments the username and email lines.
+6.  Update the correct git username and email
+7.  Close the with below steps.
+    -  press ESC key :  it will disabled insert mode
+    -  type :wq and press enter :  It will save file and close the config file.
+8. User configuration is successfully completed.
+
+
+
+
+
+
