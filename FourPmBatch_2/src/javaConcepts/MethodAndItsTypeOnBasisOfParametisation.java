@@ -5,19 +5,19 @@ public class MethodAndItsTypeOnBasisOfParametisation {
 	public static void main(String[] args) {
 		
 		
-		parametrised("akanshu");
-		parametrised("rahul","akhil");
+		vishal("akanshu");
+		sourav("rahul","akhil");
 	}
 
-	public static void nonparametrised() {
+	public static void rahul() {
 
 	}
 
-	public static void parametrised(String name) {
+	public static void vishal(String name) {
 
 		System.out.println(name);
 	}
-	public static void parametrised(String name, String naam) {
+	public static void sourav(String name, String naam) {
 
 		System.out.println(name);
 		System.out.println(naam);
